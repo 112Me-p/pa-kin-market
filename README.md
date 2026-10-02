@@ -1,26 +1,26 @@
-# PA GIN MARKET — Brochure Site
+# PA GIN MARKET — Website Brochure (Updated)
 
-Static one-page brochure website for **ตลาดพากิน ประโคนชัย / PA GIN MARKET**.
+Static website สำหรับ **ตลาดพากิน ประโคนชัย** พร้อมใช้งานบน GitHub Pages
 
-## Publish on GitHub Pages
-1. Create a new GitHub repository.
-2. Upload **all files and folders inside this project** (`index.html`, `assets/`, etc.) to the repository root.
-3. Commit the files.
-4. Go to **Settings → Pages**.
-5. Under **Build and deployment**, choose **Deploy from a branch**.
-6. Select branch **main** and folder **/(root)**, then Save.
-7. GitHub will show the public site URL after deployment completes.
+## อัปเดตรอบนี้
+1. **Hero ใหม่แบบ Responsive**
+   - Desktop: `assets/images/hero-desktop.jpg` (1920×900)
+   - Mobile: `assets/images/hero-mobile.jpg` (1080×1440)
+   - ข้อความและปุ่มยังเป็น HTML เพื่อให้คมชัดและ Responsive
+2. **ร้านอาหาร 6 ร้านเปิด Popup/Modal ได้**
+   - เนสสึโอเด้ง / NESU ODEN
+   - NACK KUU
+   - สเต๊กศรีนาง / SRI NANG STEAK
+   - แป๊กซ่า / PAKZA
+   - ตามมากิน / TAMMAGIN
+   - ฟีฟ่า & สายฟ้า พาเจียว / FIFA & SAIFA PAJIEW
+3. **ปุ่มปักหมุด** ใช้พิกัด `14.609857, 103.078307`
 
-No build command is required. This site uses plain HTML/CSS/JavaScript.
+## วิธีอัปเดต GitHub เดิม
+1. แตก ZIP นี้
+2. เปิดโฟลเดอร์ `pa-gin-site`
+3. นำ `index.html`, `assets/` และไฟล์อื่น ๆ ภายในไป **แทนที่ไฟล์เดิมใน Repository**
+4. Commit changes
+5. ถ้าเปิด GitHub Pages ไว้อยู่แล้ว เว็บไซต์จะอัปเดตหลัง Deploy เสร็จ
 
-## Main files
-- `index.html` — page content
-- `assets/css/style.css` — visual design / responsive layout
-- `assets/js/main.js` — mobile menu, scroll reveal, active navigation
-- `assets/images/` — logo, market photos, restaurant images
-
-## Contact info currently shown
-- Open daily: 11:30–22:30
-- Address: 267/3-4 หมู่ 2 ต.ประโคนชัย อ.ประโคนชัย จ.บุรีรัมย์ 31140
-- Phone: 091 928 9889
-
+> โครงสร้างไฟล์ใช้ relative paths จึงใช้งานกับ GitHub Pages ได้โดยไม่ต้องแก้ path เพิ่ม
